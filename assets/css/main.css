@@ -2362,58 +2362,6 @@
 
 /* Image */
 
-	.image {
-		display: inline-block;
-		position: relative;
-	}
-
-		.image.flush {
-			margin: 0 !important;
-		}
-
-		.image img {
-			display: block;
-		}
-
-		.image.left, .image.right {
-			max-width: 50%;
-		}
-
-			.image.left img, .image.right img {
-				width: 100%;
-			}
-
-		.image.left {
-			float: left;
-			margin: 0 1rem 1rem 0;
-			top: 0.25rem;
-		}
-
-		.image.right {
-			float: right;
-			margin: 0 0 1rem 1rem;
-			top: 0.25rem;
-		}
-
-		.image.fit {
-			display: block;
-			margin: 0 0 2rem 0;
-			width: 100%;
-		}
-
-			.image.fit img {
-				width: 100%;
-			}
-
-		.image.main {
-			display: block;
-			margin: 0 0 3rem 0;
-			width: 100%;
-		}
-
-			.image.main img {
-				width: 100%;
-			}
 
 /* List */
 
